@@ -1,8 +1,7 @@
 import React from "react";
 import ExpenseDate from "./ExpenseDate";
 import "./expenseItem.css";
-import Card from "./UI/Card";
-
+import Card from "../UI/Card";
 const ExpenseItem = ({ title, amount, date }) => {
   return (
     <Card className="expense-item">
